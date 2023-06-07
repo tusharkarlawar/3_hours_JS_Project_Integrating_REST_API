@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin page</title>
+  
+</head>
+<body>
+  
+  
+    <form id="my-form">
+      
+      
+      
+        <label for="Selling Price">Selling Price:</label>
+        
+        <input type="number" required placeholder="Enter Selling Price" id="selling">
+      
+        <label for="Product name">Product name:</label>
+       
+        <input type="text" placeholder="Enter Product name" required id="product">
+      
+
+      <input class="btn" type="submit" value="Add product">
+      <h1>Products</h1>
+    </form>
+  
+  <ul  id="outputList" >
+   
+  </ul>
+  <h3 id="value">Total value worth to product: Rs 0</h3>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
